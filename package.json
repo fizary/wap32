@@ -1,0 +1,35 @@
+{
+    "private": true,
+    "name": "wap32",
+    "version": "0.0.0",
+    "description": "Recreation of Monolith's WAP32 game engine in web technologies.",
+    "license": "MIT",
+    "type": "module",
+    "files": [
+        "/lib"
+    ],
+    "exports": {
+        ".": {
+            "types": "./lib/index.d.ts",
+            "import": "./lib/wap32.js"
+        }
+    },
+    "scripts": {
+        "build": "vite build",
+        "watch": "vite build --watch",
+        "types:emit": "tsc",
+        "types:check": "tsc --noEmit --emitDeclarationOnly false",
+        "lint": "eslint ./src",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "peerDependencies": {
+        "hexcod": "file:../hexcod"
+    },
+    "devDependencies": {
+        "@eslint/js": "^9.12.0",
+        "eslint": "^9.12.0",
+        "typescript": "^5.6.3",
+        "typescript-eslint": "^8.10.0",
+        "vite": "^5.4.9"
+    }
+}
