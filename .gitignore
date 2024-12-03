@@ -1,0 +1,9 @@
+# Dependency directories
+node_modules
+
+# Compiled output
+lib
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
