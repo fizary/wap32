@@ -9,9 +9,9 @@
         "/lib"
     ],
     "exports": {
-        ".": {
-            "types": "./lib/index.d.ts",
-            "import": "./lib/wap32.js"
+        "./rez": {
+            "types": "./lib/formats/rez/index.d.ts",
+            "import": "./lib/rez.js"
         }
     },
     "scripts": {
