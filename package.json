@@ -12,6 +12,10 @@
         "./rez": {
             "types": "./lib/formats/rez/index.d.ts",
             "import": "./lib/rez.js"
+        },
+        "./pid": {
+            "types": "./lib/formats/pid/index.d.ts",
+            "import": "./lib/pid.js"
         }
     },
     "scripts": {

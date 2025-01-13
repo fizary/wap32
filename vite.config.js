@@ -6,6 +6,7 @@ export default defineConfig({
         lib: {
             entry: {
                 rez: resolve(import.meta.dirname, "src/formats/rez/index.ts"),
+                pid: resolve(import.meta.dirname, "src/formats/pid/index.ts"),
             },
             formats: ["es"],
         },
