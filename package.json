@@ -21,16 +21,16 @@
     "scripts": {
         "build": "vite build",
         "watch": "vite build --watch",
-        "type-check": "tsc --noEmit --emitDeclarationOnly false",
+        "typecheck": "tsc",
         "lint": "eslint ./src"
     },
     "peerDependencies": {
         "hexcod": "file:../hexcod"
     },
     "devDependencies": {
-        "@eslint/js": "9.22",
+        "@eslint/js": "^9.22.0",
         "eslint": "^9.22.0",
-        "typescript": "5.8",
+        "typescript": "^5.8.2",
         "typescript-eslint": "^8.26.1",
         "vite": "^6.2.1",
         "vite-plugin-dts": "^4.5.3"
